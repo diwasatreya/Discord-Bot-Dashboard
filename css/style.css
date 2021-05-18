@@ -1,0 +1,335 @@
+/*                IMPORTS              */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
+/*                         GENERAL           */
+
+html {
+    background-color: #2c2f33;
+    user-select: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+/*                             NAVBAR               */
+
+nav {
+    background-color: #23272a;
+    padding: 20px 0 20px 0;
+    transition: 0.2s;
+}
+
+#navtext {
+    color: #e4e4e4;
+    font-family: 'Aldrich';
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#navtext-div {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+
+/*                                 LANDING                                     */
+
+
+
+#logo-main-1 {
+    border-radius: 1000px;
+    margin: 30px auto 0 auto;
+    display: block;
+    border: solid #7289da 5px;
+    max-width: -webkit-fill-available;
+    max-height: 400px;
+}
+
+#botname-main-1 {
+    color: #e4e4e4;
+    font-family: "Black Ops One";
+    text-align: center;
+    font-size: 40px;
+}
+
+#main-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-buttons-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-button-2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #7289da;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-2:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 4px 10px #181a1d);
+    outline: none;
+}
+
+#main-button-2-1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #7289da;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-2-1:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 4px 10px #181a1d);
+    outline: none;
+}
+
+#main-button-1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #23272a;
+    color: #ffffff;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-1:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+#main-button-4 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #f96854;
+    color: #052d49;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-4:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+#main-button-3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffee00;
+    color: black;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-weight: bold;
+    font-family: "Aldrich";
+}
+
+#main-button-3:hover {
+    transition: 0.5s;
+    filter: drop-shadow(2px 7px 3px #181a1d);
+    cursor: pointer;
+    outline: none;
+}
+
+/* BY CREPER92YT 
+www.creper92.tk*/
+
+#main-info {
+    font-family: "Bungee";
+    color: #ffffff;
+}
+
+#main-info-1 {
+    text-align: left;
+    max-width: 50%;
+}
+
+#main-info-2 {
+    float: right;
+    max-width: 50%
+}
+
+
+/*                   FOOTER                */
+
+
+footer {
+    border-top: solid #23272a 5px;
+    margin-top: 20px;
+}
+
+#footer-copyright {
+    text-align: center;
+    color: #99aab5;
+    font-family: "Black Ops one";
+}
+
+#footer-credits {
+    text-align: right;
+    color: white
+}
+
+a {
+    color: unset;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*                   DEVELOPERS PAGE                           */
+
+#developers-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+#developers-grid2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#developers-grid3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#developers-img1 {
+    border-radius: 150px;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+#developers-img2 {
+    border-radius: 150px;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+#developers-img3 {
+    border-radius: 150px;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+#developers-img4 {
+    border-radius: 150px;
+    border: none;
+    margin: 0 auto 0 auto;
+}
+
+#developers-grade {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#developers-grade2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#developers-grade3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Aldrich";
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#developers-name {
+    color: #ffffff;
+    font-family: "Aldrich";
+}
+
+#developers-name2 {
+    color: #ffffff;
+    font-family: "Aldrich";
+}
+
+#developers-name3 {
+    color: #ffffff;
+    font-family: "Aldrich";
+}
+
+#developers-name4 {
+    color: #ffffff;
+    font-family: "Aldrich";
+}
+
+
+/*                 COMMANDS                              */
+
+#commands-grid {
+color: sas;
+}
+
+#commands-minigrid {
+    background-color: #23272a;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+}
+
+#commands-name {
+    color: white;
+    font-family: "Aldrich";
+    font-weight: 500
+}
+
+#commands-desc {
+    color: #99aab5;
+    font-family: "Aldrich";
+}
